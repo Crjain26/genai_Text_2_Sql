@@ -1,5 +1,5 @@
-# HPE_Text_2_Sql
-HPE_Text_2_Sql is a Python-based application that translates natural language queries into SQL statements. It provides a user-friendly interface for users to interact with databases using plain English, making data retrieval more accessible.
+# Genai_Text_2_Sql
+Genai_Text_2_Sql is a Python-based application that translates natural language queries into SQL statements. It provides a user-friendly interface for users to interact with databases using plain English, making data retrieval more accessible.
 
 ## Features:
 
