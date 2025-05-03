@@ -18,7 +18,7 @@ Genai_Text_2_Sql is a Python-based application that translates natural language 
 ```
 git clone https://github.com/Crjain26/HPE_Text_2_Sql.git
 
-cd HPE_Text_2_Sql
+cd genai_Text_2_Sql
 
 ```
 
@@ -55,8 +55,14 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 ``` 
 
-
 ### Step 5:
+>Create a API key from ***https://aistudio.google.com/prompts/new_chat***.
+
+>Click on Get API key.
+
+>Update the GOOGLE_API_KEY in the .env file 
+
+### Step 6:
 >To run the streamlit app
 ```
 streamlit run app.py
