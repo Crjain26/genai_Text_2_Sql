@@ -5,7 +5,7 @@ Genai_Text_2_Sql is a Python-based application that translates natural language 
 
 🔍 Text-to-SQL Translation: Enter natural language queries and receive executable SQL.
 
-📊 SQLite Database Integration: Queries are executed on a local SQLite database.
+📊 PostgreSql Database Integration: Queries are executed on a local SQLite database.
 
 🌐 Streamlit UI: Clean and interactive web interface.
 
@@ -63,6 +63,11 @@ pip install -r requirements.txt
 >Update the GOOGLE_API_KEY in the .env file 
 
 ### Step 6:
+>Update your credentials of postgreSql.
+
+>Provide database name and password from your pgAdmin.
+
+### Step 7:
 >To run the streamlit app
 ```
 streamlit run app.py
@@ -74,7 +79,7 @@ OpenAI for providing powerful language models.
 
 Streamlit for the interactive web interface.
 
-SQLite for the lightweight database
+PostegreSQL for dynamic integration.
 
 
 
