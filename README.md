@@ -75,7 +75,7 @@ streamlit run app.py
 
 ## Acknowledgements
 
-OpenAI for providing powerful language models.
+Gemini-1.5 flash for providing powerful language models.
 
 Streamlit for the interactive web interface.
 
