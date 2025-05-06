@@ -41,7 +41,7 @@ myvenv\Scripts\activate
 python --version
 pip --version
 ```
-Python version should be (3.8.0 - <3.12.0) 
+Python version should be (3.9.0 - <3.12.0) 
 
 Pip upgrade:
 ```
