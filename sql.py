@@ -9,9 +9,9 @@ load_dotenv()
 class PostgreSQLManager:
     def __init__(self):
         self.connection = None
-        self.DB_NAME = os.getenv("POSTGRES_DB", "") # provide your database
+        self.DB_NAME = os.getenv("POSTGRES_DB", "classicmodels") # provide your database
         self.DB_USER = os.getenv("POSTGRES_USER", "postgres")
-        self.DB_PASSWORD = os.getenv("POSTGRES_PASSWORD", "") # update your password
+        self.DB_PASSWORD = os.getenv("POSTGRES_PASSWORD", "Chotu@2603") # update your password
         self.DB_HOST = os.getenv("POSTGRES_HOST", "localhost")
         self.DB_PORT = os.getenv("POSTGRES_PORT", "5432")
 
@@ -108,3 +108,4 @@ class PostgreSQLManager:
         if self.connection:
             self.connection.close()
             print("Database connection closed")
+
