@@ -60,7 +60,7 @@ def validate_sql(sql_query):
 
 def main():
     st.set_page_config(page_title="PostgreSQL SQL Generator", layout="wide")
-    st.image("logo.jpeg",width=300)
+    
     st.title("Natural Language to PostgreSQL Query Converter")
     
     # Initialize database connection
@@ -156,3 +156,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
